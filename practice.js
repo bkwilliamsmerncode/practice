@@ -145,3 +145,79 @@
 // console.log(and(false, true))
 
 // console.log(and(false, false))
+
+//////////////////////////////////////////////////////////// Are the Numbers Equal? ///////////////////////////////////////////////////////////////////////
+
+// function isSameNum(num1, num2) {
+// 	if(num1 === num2) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// isSameNum(4, 8) ➞ false
+
+// isSameNum(2, 2) ➞  true
+
+// isSameNum(2, "2") ➞ false
+
+// console.log(isSameNum(4, 8))
+
+// console.log(isSameNum(2, 2))
+
+// console.log(isSameNum(2, "2"))
+
+////////////////////////////////////////////////////////// Football Points ///////////////////////////////////////////////////////////////////
+
+// function footballPoints(wins, draws, losses) {
+// 	return wins * 3 + draws * 1;
+// }
+
+// footballPoints(3, 4, 2) ➞ 13
+
+// footballPoints(5, 0, 2) ➞ 15
+
+// footballPoints(0, 0, 1) ➞ 0
+
+// console.log(footballPoints(3, 4, 2))
+
+// console.log(footballPoints(5, 0, 2))
+
+// console.log(footballPoints(0, 0, 1))
+
+/////////////////////////////////////////////// Convert Hours and Minutes into Seconds ////////////////////////////////////////////////////////////
+
+// function convert(hours, minutes) {
+// 	return hours * 60 * 60 + minutes * 60;
+// }
+
+// convert(1, 3) ➞ 3780
+
+// convert(2, 0) ➞ 7200
+
+// convert(0, 0) ➞ 0
+
+// console.log(convert(1, 3))
+
+// console.log(convert(2, 0))
+
+// console.log(convert(0, 0))
+
+///////////////////////////////////////////////////// Fix The Expression /////////////////////////////////////////////////////////////////////////
+
+// function isSeven(x) {
+// 	return x === 7 ? true : false;
+// }
+
+// isSeven(4) ➞ false
+
+// isSeven(9) ➞ false
+
+// isSeven(7) ➞ true
+
+// console.log(isSeven(4))
+
+// console.log(isSeven(9))
+
+// console.log(isSeven(7))

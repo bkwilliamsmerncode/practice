@@ -221,3 +221,157 @@
 // console.log(isSeven(9))
 
 // console.log(isSeven(7))
+
+///////////////////////////////////////////////////// Equality Check ////////////////////////////////////////////////////////////////////////////
+
+// function checkEquality(a, b) {
+//   return a === b;
+// }
+
+//checkEquality(1, true) ➞ false
+// A number and a boolean: the value and type are different.
+
+//checkEquality(0, "0") ➞ false
+// A number and a string: the type is different.
+
+//checkEquality(1,  1) ➞ true
+// A number and a number: the type and value are equal.
+
+// console.log(checkEquality(1, true))
+
+// console.log(checkEquality(0, "0"))
+
+// console.log(checkEquality(1, 1))
+
+//////////////////////////////////////////////////////// Profitable Gamble ////////////////////////////////////////////////////////////////////////
+
+// function profitableGamble(prob, prize, pay) {
+// 	return prob * prize > pay;
+// }
+
+// profitableGamble(0.2, 50, 9) ➞ true
+
+// profitableGamble(0.9, 1, 2) ➞ false
+
+// profitableGamble(0.9, 3, 2) ➞ true
+
+// console.log(profitableGamble(0.2, 50, 9))
+
+// console.log(profitableGamble(0.9, 1, 2))
+
+// console.log(profitableGamble(0.9, 3, 2))
+
+///////////////////////////////////////////////////////// Boolean to String Conversion /////////////////////////////////////////////////////////////
+
+// function boolToString(flag) {
+// 	return flag.toString()
+// }
+
+// boolToString(true) ➞ "true"
+
+// boolToString(false) ➞ "false"
+
+// console.log(boolToString(true))
+
+// console.log(boolToString(false))
+
+/////////////////////////////////////////////////////// Using Arrow Functions /////////////////////////////////////////////////////////////////////
+
+// const arrowFunc = (result) => result
+
+// arrowFunc(3) ➞ 3
+
+// arrowFunc("3") ➞ "3"
+
+// arrowFunc(true) ➞ true
+
+// console.log(arrowFunc(3))
+
+// console.log(arrowFunc("3"))
+
+// console.log(arrowFunc(true))
+
+///////////////////////////////////////////////////////// Frames Per Second /////////////////////////////////////////////////////////////////////
+
+// function frames(minutes, fps) {
+// 	return minutes * fps * 60;
+// }
+
+// frames(1, 1) ➞ 60
+
+// frames(10, 1) ➞ 600
+
+// frames(10, 25) ➞ 15000
+
+// console.log(frames(1, 1))
+
+// console.log(frames(10, 1))
+
+// console.log(frames(10, 25))
+
+/////////////////////////////////////////////////////// Miserable Parody of a Calculator /////////////////////////////////////////////////////////
+
+// function calculator(str) {
+// 	return eval(str);
+// }
+
+// calculator("23+4") ➞ 27
+
+// calculator("45-15") ➞ 30
+
+// calculator("13+2-5*2") ➞ 5
+
+// calculator("49/7*2-3") ➞ 11
+
+// console.log(calculator("23+4"))
+
+// console.log(calculator("45-15"))
+
+// console.log(calculator("13+2-5*2"))
+
+// console.log(calculator("49/7*2-3"))
+
+/////////////////////////////////////////////////// Buggy Code (Part 4) //////////////////////////////////////////////////////////////////////////
+
+// function greeting(name) {
+   
+//     if(name == "Mubashir") {
+//       return "Hello, my Love!";
+//     } else {
+//         return "Hello," + " " + name + "!" 
+//     }
+//   }
+
+// greeting("Matt") ➞ "Hello, Matt!"
+
+// greeting("Helen") ➞ "Hello, Helen!"
+
+// greeting("Mubashir") ➞ "Hello, my Love!"
+
+// console.log(greeting("Matt"))
+
+// console.log(greeting("Helen"))
+
+// console.log(greeting("Mubashir"))
+
+/////////////////////////////////////////////////////// Two Makes Ten /////////////////////////////////////////////////////////////////////////////
+
+// function makesTen(a, b) {
+// 	if( a + b === 10 && a || b === 10 ) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// makesTen(9, 10) ➞ true
+
+// makesTen(9, 9) ➞ false
+
+// makesTen(1, 9) ➞ true
+
+// console.log(makesTen(9, 10))
+
+// console.log(makesTen(9, 9))
+
+// console.log(makesTen(1, 9))

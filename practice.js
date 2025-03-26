@@ -375,3 +375,89 @@
 // console.log(makesTen(9, 9))
 
 // console.log(makesTen(1, 9))
+
+/////////////////////////////////////////////////////// Lets Fuel Up! ////////////////////////////////////////////////////////////////////////////
+
+// function calculateFuel(n) {
+// 	if(n * 10 < 100) {
+//         return 100
+//     } else {
+//         return n * 10
+//     }
+// }
+
+// calculateFuel(15) ➞ 150
+
+// calculateFuel(23.5) ➞ 235
+
+// calculateFuel(3) ➞ 100
+
+// console.log(calculateFuel(15))
+
+// console.log(calculateFuel(23.5))
+
+// console.log(calculateFuel(3))
+
+//////////////////////////////////////////////////////// Buggy Code (Part 2) /////////////////////////////////////////////////////////////////////
+
+// function maxNum(n1, n2) {
+// 	if (n1>n2) {
+// 	  return n1
+// 	} else if(n1 < n2) {
+// 	return n2
+//   }
+// }
+
+// maxNum(3, 7) ➞ 7
+
+// maxNum(-1, 0) ➞ 0
+
+// maxNum(1000, 400) ➞ 1000
+
+// console.log(maxNum(3, 7))
+
+// console.log(maxNum(-7, 0))
+
+// console.log(maxNum(1000, 400))
+
+//////////////////////////////////////////////////////// Pair Management /////////////////////////////////////////////////////////////////////////
+
+// function makePair(num1, num2) {
+// 	let result = []
+//     result.push(num1,  num2)
+//     return result
+// }
+
+// makePair(1, 2) ➞ [1, 2]
+
+// makePair(51, 21) ➞ [51, 21]
+
+// makePair(512124, 215) ➞ [512124, 215]
+
+// console.log(makePair(1, 2))
+
+// console.log(makePair(51, 21))
+
+// console.log(makePair(512124, 215))
+
+/////////////////////////////////////////////////////////// Compare Strings by Count of Characters //////////////////////////////////////////////////
+
+// function comp(str1, str2) {
+// 	if(str1.length === str2.length ) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// comp("AB", "CD") ➞ true
+
+// comp("ABC", "DE") ➞ false
+
+// comp("hello", "edabit") ➞ false
+
+// console.log(comp("AB", "CD"))
+
+// console.log(comp("ABC", "DE"))
+
+// console.log(comp("hello", "edabit"))
